@@ -14,6 +14,9 @@ def cislo_text(cislo):
 
 
 
-print (cislo_text(100))
+if __name__ == "__main__":
+    cislo = input("Zadej číslo: ")
+    text = cislo_text(int(cislo))
+    print(text)
 
     
